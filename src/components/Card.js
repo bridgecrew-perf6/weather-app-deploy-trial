@@ -96,7 +96,7 @@ const Card = () => {
         <div className="min-h-screen flex flex-col items-center justify-center">
           <div className="flex flex-col bg-white rounded-lg p-8 w-full max-w-xs border border-gray-600 border-opacity-50 filter drop-shadow-md">
             <div>{text}</div>
-            <div className="font-bold text-3xl mb-7">Weather App</div>
+            <div className="font-bold text-3xl mb-7">Aplikasi Cuaca</div>
             <div className="text-gray-600">
               <input className="border border-gray-600 border-opacity-50 bg-white h-10 px-5 w-full rounded-lg text-sm text-gray-500 focus:outline-none" type="text" name="search" placeholder="Search city name..." onChange={e => setQuery(e.target.value)} value={query} onKeyPress={search} />
             </div>
